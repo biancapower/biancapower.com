@@ -47,7 +47,7 @@ navigation:
   # - text: About
   #   url: /about/
   - text: Contact Me
-    url: /contact/
+    url: /biancapower.com/contact/
 
 # Required Plugins
 plugins_dir:
