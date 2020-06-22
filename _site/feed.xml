@@ -5,15 +5,15 @@
     <description>A blog about things I find worth sharing. Heavy focus on open source, git, GitLab, and vim.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2020 16:40:46 +1000</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2020 16:40:46 +1000</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2020 16:47:21 +1000</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2020 16:47:21 +1000</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
         <title></title>
         <description>
 </description>
-        <pubDate>Mon, 22 Jun 2020 16:40:46 +1000</pubDate>
+        <pubDate>Mon, 22 Jun 2020 16:47:21 +1000</pubDate>
         <link>http://localhost:4000/2018-02-07-advanced-markdown-tips</link>
         <guid isPermaLink="true">http://localhost:4000/2018-02-07-advanced-markdown-tips</guid>
         
