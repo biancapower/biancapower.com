@@ -1,13 +1,13 @@
 # Site setings
-name: 'Horace'
-description: 'Horace is a simple Jekyll theme for writers and bloggers. Explore it yourself.'
-meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
+name: 'biancapower.com'
+description: "A blog about things I find worth sharing. Heavy focus on open source, git, GitLab, and vim."
+meta_description: 'A blog about open source, git, gitlab and vim'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
-production_url: https://horace.netlify.com/
-disqus: 'justgoodthemes'
-mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+# production_url: https://horace.netlify.com/
+# disqus: 'justgoodthemes'
+# mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 cover_image: bc_1.jpg
 # Add your GA Tracking Id
 ga_analytics: 
@@ -15,11 +15,12 @@ ga_analytics:
 
 # Author
 author:
-  name: 'Daniel Bennett'
-  image: 'authorimage.jpg'
-  greetings: 'Hi there!'
-  description: "My name is Daniel Bennett. I'm a freelance front-end developer, author and speaker based in Austin, TX. It’s nice to meet you."
-  bio: 'Daniel is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious.'
+  name: 'Bianca Power'
+  image: 'authorimage2.png'
+  greetings: '{ Hi there! }'
+  # description: '{ name: "Bianca Power", obsessions: ["git", "vim", "GitLab"] }'
+  description: "My name's Bianca Power. I'm a Web Dev Bootcamp Educator based in Sydney, Australia. My current obsessions include git, vim, and GitLab"
+  bio: "Bianca is a Web Development Bootcamp Educator at Coder Academy, Sydney - helping career changers make the move into tech. Bianca's current obsessions include git, GitLab, and vim."
 
 # Contact form setings
 email: youremail@email.com
@@ -27,23 +28,24 @@ contact_page_description: "Horace theme comes with a contact form built-in. You 
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
-twitter: 'username'
-facebook: 'username'
-github: 'username'
-codepen: 'username'
-dribbble: 'username'
-medium: '@username'
-instagram: 'username'
-pinterest: 'username'
-linkedin: 'username'
-producthunt: '@username'
+twitter: '20by31'
+# facebook: 'username'
+github: 'biancapower'
+gitlab: 'biancapower'
+# codepen: 'username'
+# dribbble: 'username'
+medium: '@biancapower'
+# instagram: 'username'
+# pinterest: 'username'
+linkedin: 'drbiancapower'
+# dev: 'biancapower'
+
+# producthunt: '@username'
 
 # Navigation
 navigation:
-  - text: About
-    url: /about/
-  - text: Style Guide
-    url: /style-guide/
+  # - text: About
+  #   url: /about/
   - text: Contact Me
     url: /contact/
 

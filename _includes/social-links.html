@@ -17,6 +17,18 @@
         <span class="screen-reader-text">GitHub</span>
     </a>
     {% endif %}
+    {% if site.gitlab %}
+    <a href="https://gitlab.com/{{ site.gitlab }}" target="_blank">
+        <span class="fa-gitlab fa" aria-hidden="true"></span>
+        <span class="screen-reader-text">GitLab</span>
+    </a>
+    {% endif %}
+    <!-- {% if site.dev %}
+    <a href="https://dev.to/{{ site.dev }}" target="_blank">
+        <span class="fa-dev fa" aria-hidden="true"></span>
+        <span class="screen-reader-text">Dev.to</span>
+    </a>
+    {% endif %} -->
     {% if site.codepen %}
     <a href="https://codepen.io/{{ site.codepen }}" target="_blank">
         <span class="fa-codepen fa" aria-hidden="true"></span>
