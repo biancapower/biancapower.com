@@ -4,7 +4,8 @@ description: "A blog about things I find worth sharing. Heavy focus on open sour
 meta_description: 'A blog about open source, git, gitlab and vim'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: 'https://biancapower.com'
+# baseurl: 'https://biancapower.com'
+baseurl: 'https://biancapower.gitlab.io/biancapower.com'
 production_url: https://biancapower.com/
 disqus: 'bianca_power'
 # mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
