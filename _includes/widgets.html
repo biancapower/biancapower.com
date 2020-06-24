@@ -20,7 +20,7 @@
             </div>
             {% if post.featured_image_thumbnail %}
             <a class="post-thumbnail" href="{{ post.url }}">
-                <img src="{% if post.featured_image_thumbnail contains ' :// ' %}{{ post.featured_image_thumbnail }}{% else %}{{ post.featured_image_thumbnail | absolute_url }}{% endif %}"
+                <img src="{% if post.featured_image_thumbnail contains ' :// ' %}{{ post.featured_image_thumbnail }}{% else %}{{ post.featured_image_thumbnail }}{% endif %}"
                     alt="{{ post.title }}">
             </a>
             {% elsif post.featured_image %}
