@@ -5,17 +5,17 @@
                 datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B, %Y" }}</time>
         </div><!-- .post-meta -->
         <h2 class="post-title">
-            <a href="{{ post.url | absolute_url }}" rel="bookmark">{{ post.title }}</a>
+            <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
         </h2>
     </header><!-- .post-header -->
     {% if post.featured_image_thumbnail %}
     <a class="post-thumbnail" href="{{ post.url }}">
-        <img src="{% if post.featured_image_thumbnail contains ' :// ' %}{{ post.featured_image_thumbnail }}{% else %}{{ post.featured_image_thumbnail | absolute_url }}{% endif %}"
+        <img src="{% if post.featured_image_thumbnail contains ' :// ' %}{{ post.featured_image_thumbnail }}{% else %}{{ post.featured_image_thumbnail }}{% endif %}"
             alt="{{ post.title }}">
     </a>
     {% elsif post.featured_image %}
     <a class="post-thumbnail" href="{{ post.url }}">
-        <img src="{% if post.featured_image contains ' :// ' %}{{ post.featured_image }}{% else %}{{ post.featured_image | absolute_url }}{% endif %}"
+        <img src="{% if post.featured_image contains ' :// ' %}{{ post.featured_image }}{% else %}{{ post.featured_image }}{% endif %}"
             alt="{{ post.title }}">
     </a>
     {% else %}
