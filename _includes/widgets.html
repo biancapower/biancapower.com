@@ -12,7 +12,7 @@
         <li>
             <div class="post-header">
                 <div class="post-meta">
-                    <time class="published" datetime="??">{{ post.date | date: "%B %-d, %Y" }}</time>
+                    <time class="published" datetime="??">{{ post.date | date: "%-d %B, %Y" }}</time>
                 </div>
                 <div class="post-title">
                     <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
@@ -55,8 +55,8 @@ endcapture %} {% assign sortedTags = site_tags | split:',' | sort %}
         <p>Get the latest and greatest from {{ site.name }} delivered straight to your inbox every week.</p>
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
-            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                class="validate gh-subscribe-form" target="_blank" novalidate>
+            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form" class="validate gh-subscribe-form" target="_blank" novalidate>
                 <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
                 <input type="email" value="" name="EMAIL" class="required email subscribe-email" id="mce-EMAIL"
                     placeholder="Your email address">
