@@ -2,9 +2,9 @@
 layout: post
 title:  "How to Combine Git Commits - Squash 'em with a rebase!"
 tags: [ git, tips, how-to ]
-featured_image_thumbnail: assets/images/posts/2020/04/13/cover.png
-featured_image: assets/images/posts/2020/04/13/cover.png
-img_base_url: assets/images/posts/2020/04/13
+featured_image_thumbnail: /assets/images/posts/2020/04/13/cover.png
+featured_image: /assets/images/posts/2020/04/13/cover.png
+img_base_url: /assets/images/posts/2020/04/13
 ---
 
 Here's the situation. Everything seems to be working well with your current code, so you do a `git commit`. Then you notice a small bug, or maybe you forgot to comment an important line of code, or to remove all of your `console.log`s. So you make your minor changes... and `git commit` again. Then you push to production - and let's face it, nothing 'just works' when you push to production - and now you need to make a few more minor changes, you add them, `git commit` again. Maybe this happens a few times, before you're _actually_ done with that bit of code. So now when you look at the commit history, there's the original, nicely named commit, maybe something like "implement new navbar", then there are a litter of commits following it, things like "bugfix", "please work now", "working navbar", "navbar fix AGAIN". Or maybe your commit messages are better than that, but either way, ideally, all of that code should have been part of the "implement new navbar" commit. Read on for how to do just that.
