@@ -14,7 +14,7 @@ Here's the situation. Everything seems to be working well with your current code
 
 Below is an [asciinema](https://asciinema.org/) cast of me doing just that.
 
-<script id="asciicast-318544" src="https://asciinema.org/a/318544.js" async></script>
+{% asciicast 318544 %}
 
 Let's talk it through. First, doing `git log` shows us the most recent commits. In this case, it's the most recent 4 commits that we want to combine. Those are shown here:
 
