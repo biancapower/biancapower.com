@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to change your default text editor for git (and avoid vim)"
-featured:
+featured: false
 tags: [ git, tips, how-to ]
 featured_image_thumbnail: /assets/images/posts/2020/04/11/cover.png
 featured_image: /assets/images/posts/2020/04/11/cover.png

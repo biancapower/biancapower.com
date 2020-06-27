@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to add ASCII art around code comment blocks in vim"
-featured:
+featured: false
 tags: [ vim, bash, how-to ]
 featured_image_thumbnail: /assets/images/posts/2020/04/12/cover.png
 featured_image: /assets/images/posts/2020/04/12/cover.png
